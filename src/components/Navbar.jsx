@@ -30,10 +30,10 @@ const Navbar = () => {
 
     }, [])
 
-    // useEffect(() => {
-    //     document.body.classList.toggle('overflow-hidden', isMenuOpen);
+    useEffect(() => {
+        document.body.classList.toggle('overflow-hidden', isMenuOpen);
         
-    // }, [isMenuOpen]);
+    }, [isMenuOpen]);
     
 
   return (
