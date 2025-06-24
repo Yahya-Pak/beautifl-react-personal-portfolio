@@ -29,6 +29,11 @@ const Navbar = () => {
         }
 
     }, [])
+
+    // useEffect(() => {
+    //     document.body.classList.toggle('overflow-hidden', isMenuOpen);
+        
+    // }, [isMenuOpen]);
     
 
   return (
@@ -55,7 +60,8 @@ const Navbar = () => {
             {/* Mobile nav */}
 
             <button className='md:hidden p-2 text-foreground z-50'
-             onClick={()=> setIsMenuOpen((prev) => !prev) } aria-label={isMenuOpen ? "Close menu" : "Open menu"}>
+             onClick={()=> setIsMenuOpen((prev) => !prev) } aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+             aria-expanded={isMenuOpen} >
                 {isMenuOpen ? <X size={24}/> : <Menu size={24} />}
             </button>
 
@@ -64,7 +70,7 @@ const Navbar = () => {
             isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")} >
               
 
-                <div className='flex flex-col space-x-8 text-xl '>
+                <div className='flex flex-col space-y-6 text-xl '>
                     {navItems.map((item, key) => (
                         <a key={key} href={item.href}
                          className="text-foreground/80 hover:text-primary transition-colors duration-300 "
