@@ -1,12 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Developer Portfolio
 
-Currently, two official plugins are available:
+This is a modern and responsive developer portfolio site built to represent my professional profile. It highlights my expertise, featured projects, skills, and contact information. Designed with clean UI/UX principles, the site is optimized for performance, accessibility, and responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Portfolio](https://syedyahya.vercel.app)
+## Tech Stack
+
+Frontend: React.js (with Vite)
+
+Styling: Tailwind CSS
+
+Animations: Framer Motion, CSS Keyframes
+
+Icons: Lucide Icon
+
+Deployment: Vercel
+
+## Installation
+
+Clone the project
+
+```bash
+  git clone https://github.com/Yahya-Pak/beautifl-react-personal-portfolio
+```
+
+Go to the project directory
+
+```bash
+  cd beautifl-react-personal-portfolio
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## ✨ Features
+
+
+🔥 Fully responsive design
+
+🌙 Dark theme and Light theme support
+
+🚀 Animated transitions and UI effects
+
+🧩 Modular components for scalability
+
+📞 Contact form and social links integration
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)  License. Free to use and modify.
+
+
+## Authors
+
+- [@syed yahya](https://www.github.com/Yahya-Pak)
+
