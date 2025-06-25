@@ -86,7 +86,7 @@ const generateMeteors = () => {
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
       {stars.map((star)=>(
-        <div key={star.id} className="star animate-pulse-subtle" 
+        <div key={star.id} className="star animate-twinkle " 
         style={{
             width: `${star.size}px`,
             height: `${star.size}px`,
